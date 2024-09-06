@@ -123,9 +123,9 @@ def process_all_events_in_batches(base_dir, event_files, fs=100, batch_size=5):
 # Main program 1: Responsible for loading and processing data, and extracting frequency features
 def main1():
     base_dir = "E:\japan"
-    event_files = ["ev0000734973","ev0002128689","ev0000447288","ev0000593283","ev0001903830"]
+    event_files = ["file name"]
     fs = 100  # Sampling frequency
-    batch_size = 10  # Batch size
+    batch_size = 10 
     
     print("Processing all event files in batches...")
     freq_features = process_all_events_in_batches(base_dir, event_files, fs=fs, batch_size=batch_size)
